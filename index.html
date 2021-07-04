@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario</title>
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+  <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+    <a class="navbar-brand" href="#">Mario Encanamentos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar" class="navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#parceiros">Parceiros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#avaliacoes">Meus trabalhos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://pt-americas-support.nintendo.com/">Contato</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron" id="home">
+    <div class="container">
+      <h1 class="display-3">Mario, o Encanador! <i class="flaticon-plumber"> </i><i class="fas fa-toilet"></i> </h1>
+      <p>Olá, meu nome é Mario, sou encanador profissional há 40 anos, comecei essa carreira
+        como um pequeno projeto e desde então sou apaixonado pela minha função, sou um amante de animais, principalmente tartarugas, todo
+        projeto é como uma aventura pessoal e toda conquista é feita com horas de trabalho
+        duro e muito suor. Trabalho com encanamentos internacionais e sempre trago aquela sensação de missão bem sucedida e alegria pra familia toda, faça seu orçamento abaixo. </p>
+      <p><a class="btn btn-primary btn-lg btn-info" href="https://www.nintendo.com/pt_BR/games/game-guide/#filter/:q=mario" role="button">Contrate-me &raquo;</a></p>
+    </div>
+  </div>
+
+<div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+  <div class="col-12 col-sm-6 col-lg-3">
+    <img class="w-100" src="Rereview.PNG" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+  </div>
+  <div class="col-12 col-sm-6 col-lg-3">
+    <img class="w-100" src="Review2.PNG" alt="First slide" data-target="#carouselExample" data-slide-to="1">
+  </div>
+  <div class="col-12 col-sm-6 col-lg-3">
+    <img class="w-100" src="Review4.PNG" alt="First slide" data-target="#carouselExample" data-slide-to="2">
+  </div>
+  <div class="col-12 col-sm-6 col-lg-3">
+    <img class="w-100" src="Review3.PNG" alt="First slide" data-target="#carouselExample" data-slide-to="3">
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+            <li data-target="#carouselExample" data-slide-to="2"></li>
+            <li data-target="#carouselExample" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="Rereview.PNG" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Review2.PNG" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Review4.PNG" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Review3.PNG" alt="Fourth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <section class="parceiros bg-info" id="parceiros">
+    <div class="container">
+      <div class="row">
+        <div style="text-align: center;" class="col-sm-12">
+          <h1>Parceiros</h1>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="Logo da empresa Tupy">
+              <p>As conexões <b>Tupy</b> são fabricadas com diferentes acabamentos de superfície, seguindo as normas do país e
+                as normas internacionais. Elas ocupam uma posição de liderança no nosso mercado, mas também são
+                exportadas para todos os continentes, oferecendo soluções duradouras em diferentes situações.</p>
+                <a class="btn btn-outline-info" href="https://www.tupy.com.br/portugues/home/index.php" role="button" target="_blank">Saiba mais</a>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://br.habcdn.com/photos/brand/thumbnail/logo_amanco_3195.jpg" alt="Logo da empresa Amanco">
+              <p>A <b>Deca</b> é, sem dúvida, uma das marcas mais famosas no que se refere a materiais de construção, mais
+                especificamente produtos hidráulicos.</p>
+                <a class="btn btn-outline-info" href="http://amancowavin.com.br/" role="button" target="_blank">Saiba mais    </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://br.habcdn.com/photos/brand/thumbnail/logo_tigre_3196.jpg" alt="Logo da empresa Tigre">
+              <p>Desde seu surgimento em 1941, a <b>Tigre</b> tornou-se uma marca comum na rotina dos brasileiros. Pioneirismo, inovação, excelente
+                qualidade, parceria com o público, força de vontade.</p>
+                <a class="btn btn-outline-info" href="https://www.tigre.com.br/" role="button" target="_blank">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="carouselExampleIndicators" class="carousel slide bg-info" data-ride="carousel">
+    <div id="avaliacoes" style="text-align: center;" class="col-sm-12">
+                    <h1>Meus trabalhos</h1>
+    </div>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="av01.jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="av02.jpg" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="av03.jpg" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  
+
+ 
+
+
+
+<div class="copyright py-4 text-center text-white bg-info">
+  <div class="container"><small>Desenvolvido com amor por <a href="https://github.com/LuisCausin">Luis</a> e <a href="https://github.com/eliassilveirajr/">Elias</a></small></div>
+</div>
+
+<script>
+
+
+function switchStyle() {
+  if (document.getElementById('styleSwitch').checked) {
+    document.getElementById('gallery').classList.add("custom");
+    document.getElementById('exampleModal').classList.add("custom");
+  } else {
+    document.getElementById('gallery').classList.remove("custom");
+    document.getElementById('exampleModal').classList.remove("custom");
+  }
+}
+
+</script>
+
+</body>
+
+</html>
